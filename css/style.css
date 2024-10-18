@@ -1,0 +1,439 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+   font-family: "Poppins", sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/* tradella Imtiaz code start here  */
+/* header section start*/
+.grow{
+    color: #fdbe00;
+}
+
+.header-section{
+	width: 100%;
+
+}
+.top-header{
+	width: 100%;
+	background: #020e28;
+	padding: 5px 0px;
+    text-align: center;
+
+}
+.info-item{
+	width: 100%;
+}
+.info-iteam ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.info-iteam ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+
+}
+.info-iteam ul li a{
+	font-size: 14px;
+	font-weight: 200;
+	color: white;
+}
+.info-iteam .fa{
+	margin-right: 5px;
+    color: #0278f9;
+}
+
+/* main menu css style start*/
+.main-menu{
+	width: 100%;
+	padding: 5px 0px;
+
+}
+
+.main-menu .navbar-brand{
+	margin-right: 40px;
+}
+.main-menu .bg-light{
+	background: transparent !important;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+	color: #fdbe00;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 0px 15px;
+	transition: 1s;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover{
+	color: #fdbe00;
+    background: url(../images/nav_underline.png) center bottom no-repeat;
+}
+
+.main-menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #020e28;
+    background: url(../images/nav_underline.png) center bottom no-repeat;
+}
+.header-section .main-menu .navbar-light .btn-info {
+    padding: 6px 35px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(45deg, #fdbe00, #0f86fa);
+    border: 0px;
+    border-radius: 25px;
+}
+.header-section .main-menu .navbar-light .btn-info:hover{
+    color: #fff;
+    background: linear-gradient(45deg, #0f86fa, #fdbe00);
+}
+/* main menu css style end */
+
+/* header section end*/
+/* banner section start */
+ .banner-section{
+    padding-top: 80px;
+    width: 100%;
+    background: url(../images/background_banner.png) center right no-repeat;
+    padding-bottom: 40px;
+}
+ .banner-section .banner-section-inner h5{
+    
+    letter-spacing: 1px;
+    color: white;
+    font-size: 42px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    line-height: 47px;
+}
+.banner-section .banner-section-inner .with_anncar{
+    color: #008ed6;
+}
+
+.banner-section .banner-section-inner p{
+
+
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    padding-top: 8px;
+    padding-bottom: 18px;
+}
+.inner-screenshot-section-right img{
+   width: 350px !important;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 3px;
+    margin-right: 123px;
+}
+/* banner section end */
+
+/* group_5_section start */
+.group_5_section{
+    width: 100%;
+    padding: 80px 0px;
+}
+ .group_5_section .box_sadow_effect:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    transition: 1s;
+ }
+.group_5_section .inner_features{
+    padding: 20px;
+    border-right: 2px solid #ededed;
+}
+.group_5_section .media img{
+    width: 55px;
+    padding-top: 3px;
+}
+.group_5_section .media .media-body h5{
+    color: black;
+    font-weight: 800;
+    font-size: 24px;
+    padding-left: 8px;
+}
+.group_5_section h1{
+    font-weight: 500;
+    color: #101010;
+    font-size: 14px;
+}
+
+/* group_5_section end */
+
+
+ /*  <!-- group 6 section  start  -->*/
+    
+ .group_6_section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.group_6_section .title-text{
+        margin-top: 80px;
+}
+.group_6_section .title-text h5{
+    color: #008ed6;
+font-size: 22px;
+font-weight: 500;
+margin-bottom: 18px;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.group_6_section .title-text h2{
+    font-size: 42px;
+font-weight: 600;
+margin-bottom: 13px;
+
+}
+.group_6_section .title-text p{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 29px;
+    padding-top: 13px;
+    padding-right: 45px;
+    padding-bottom: 18px;
+}
+.group_6_section .para-list{
+        font-size: 18px;
+font-weight: 600;
+line-height: 29px;
+}
+.group_6_section .para-list img{
+  margin-right: 12px;
+}
+/*  <!--  group 6 section  section end  -->*/
+
+/* group 7 section start */
+.group_7_section{
+  width: 100%;
+  padding: 40px 0px;
+  background: url(../images/group_7_background_image.png) center right no-repeat;
+
+}
+.group_7_section .first_row{
+    padding-top: 25px;
+}
+.group_7_section .second_row{
+    padding-top: 25px;
+}
+.group_7_section img{
+    width: 40px;
+}
+.group_7_section h1{
+    color: white;
+    font-size: 25px;
+    padding-top: 19px;
+}
+.group_7_section p{
+    font-size: 14px;
+    color: white;
+    font-weight: 200;
+    margin-top: -8px;
+}
+.group_7_section .underline{
+    width: 62px;
+    margin-top: -27px;
+}
+/* group 7 section end  */
+/* top brands section start */
+.top_brands{
+  width: 100%;
+  padding : 120px 0px;
+}
+.top_brands .inner_content h1{
+    font-weight: 700;
+    font-size: 33px;
+    color: #004377;
+    text-transform: uppercase;
+}
+.top_brands .inner_content img{
+    width: 97px;
+    margin-top: -27px;
+}
+.top_brands .inner_content h2{
+    color: black;
+    font-weight: 800;
+    font-size: 17px;
+}
+.top_brands .inner_content p{
+    font-weight: 400;
+    color: #101010;
+    font-size: 14px;
+}
+.top_brands .inner-img .img1{
+    position: absolute;
+    width: 53%;
+    top: 44px;
+    left: 95px;
+}
+.top_brands .inner-img .img2{
+    position: absolute;
+    width: 63%;
+    top: 0px;
+    right: 261px;
+}
+/* top brands section end */
+
+/* group 9 what part you need section start */
+.what_part_you_need{
+    width: 100%;
+    padding: 40px 0px;
+    background: url(../images/Rectangle\ 10.png) center right no-repeat;
+}
+.what_part_you_need .inner_content{
+    
+}
+.what_part_you_need .inner_content h1{
+    font-weight: 700;
+    font-size: 33px;
+    color: #008ed6;
+    text-transform: uppercase; 
+}
+.what_part_you_need .inner_content p{
+    font-weight: 400;
+    color: white;
+    font-size: 14px;
+}
+.what_part_you_need .inner_content .btn{
+    border-radius: 20px;
+    color: white;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background-color: #007dff;
+}
+.what_part_you_need .inner_content .btn:hover{
+    color: #88caec;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    transition: 1s;
+    border-radius: 20px;
+}
+/* group 9 what part you need section end */
+
+/*footer section start*/
+.footer-section{
+    padding-top: 40px;
+    width: 100%;
+    padding: 40px px;
+    background: #020e28;
+}
+.footer-section .logo_section{
+    text-align: center;
+}
+.footer-section .logo_section img{
+    width: 105px;
+    padding-bottom: 24px;
+}
+
+.footer-section .footer_part_1{
+
+}
+.footer-section .footer_part_1 h2{
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+}
+.footer-section .footer_part_1 p{
+    font-weight: 400;
+    color: white;
+    font-size: 13px;
+}
+.footer-section .footer_part_1 social-icon{
+    
+}
+.footer-section .inner-footer{
+
+}
+.footer-section .inner-footer h2{
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+}
+.footer-section .inner-footer li{
+    list-style: none;
+}
+.footer-section .inner-footer a{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+.footer-section .fa {
+    margin-right: 5px;
+    color: #fdbe00;
+}
+.footer-section .useful_links{
+
+}
+.footer-section .useful_links h2{
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+}
+.footer-section .useful_links ul{
+
+}
+.footer-section .useful_links li{
+        list-style: none;
+        color: white;
+   
+}
+.footer-section .useful_links li:hover{
+    list-style: none;
+    color: #fdbe00;
+
+}
+.footer-section .get_free_estimate{
+
+}
+.footer-section .get_free_estimate h2{
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+}
+.footer-section .get_free_estimate p{
+    font-weight: 400;
+    color: white;
+    font-size: 13px;
+}
+.footer-section .get_free_estimate a{
+    padding: 6px 35px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(45deg, #fdbe00, #0f86fa);
+    border: 0px;
+    border-radius: 25px;
+}
+.footer-section .get_free_estimate a:hover{
+    color: #fff;
+    background: linear-gradient(45deg, #0f86fa, #fdbe00);
+}
+.footer-section .copyright-part{
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: #000717;
+}
+.footer-section .copyright-part p{
+    font-weight: 400;
+    color: white;
+    font-size: 13px;
+}
+/* footer section end */
+/* tradella Imtiaz code end  here  */
